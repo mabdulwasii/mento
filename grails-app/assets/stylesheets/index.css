@@ -1,0 +1,258 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 14, 2017, 4:03:57 PM
+    Author     : princely
+*/
+html {
+    font-size: 13px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.nav-wrapper {
+    padding: 0 3em 0 3em;
+}
+
+.page-footer {
+    font-size: 13px;
+}
+
+.footer-copyright .container {
+    width: 100%;
+    padding: 0 2em;
+    max-height: 30px;
+}
+
+.nav {
+    box-shadow: none;
+
+}
+
+.footer-copyright {
+    max-height: 30px;
+    padding: 2px 0px
+}
+
+.page-footer {
+    padding-top: 10px;
+}
+
+/*nav ul li a {
+    padding: 0px 2px;
+    margin: 0px 5px 0 5px;
+}*/
+
+.smallNav ul li a {
+    padding: 0px 4px;
+}
+
+.smallNav {
+    box-shadow: none;
+}
+
+@media only screen and (min-width: 601px) {
+    nav.smallNav {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    nav {
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+.nav ul li a.teal:hover {
+    background: #fff;
+    color: #00b0ffe0;
+}
+
+section.row {
+    height: 100%;
+    width: 100%;
+}
+
+input.browser-default {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+input.browser-default::placeholder {
+    color: rgba(0, 0, 0, .7);
+    /*text-align: center;*/
+}
+
+input.browser-default:focus {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+span.mdi-magnify {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+}
+
+input.browser-default {
+    text-indent: 32px;
+}
+
+button i.mdi-magnify {
+    padding-left: 5px;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.fixed-action-btn.toolbar {
+    height: 45px;
+}
+
+.fixed-action-btn.toolbar ul li a {
+    line-height: 45px;
+}
+
+.fixed-action-btn.toolbar ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+.banner {
+    padding-top: 5em;
+    margin-bottom: 0;
+}
+
+.course {
+    font-size: 14px;
+}
+
+.modal {
+    max-height: 90%;
+    width: 60%;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+ul.student a, ul.student i, ul.student span {
+    text-align: center;
+    height: 48px;
+!important;
+    line-height: 48px;
+}
+
+.imageContainer {
+    margin-top: 5em;
+}
+
+.loginModal {
+    max-height: 70% !important;
+    width: 30% !important;
+}
+
+.resultCard {
+    padding: .4em 0;
+    font-size: 13px;
+}
+
+.parallax-container {
+    height: 240px;
+    background: linear-gradient(
+            rgba(20, 20, 20, .8),
+            rgba(20, 20, 20, .7));
+    background-size: calc(100% + 50px);
+}
+
+h1.department {
+    top: 90px;
+    position: absolute;
+    display: inline-block;
+    align-content: center;
+    left: 5em;
+}
+
+.card-title {
+    font-weight: 600 !important;
+}
+
+h1.found {
+    top: 130px;
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    left: 8em;
+    font-style: italic;
+}
+
+.searchResult {
+    margin: .8em auto;
+}
+
+.vMargin-2 {
+    margin-top: .4em;
+}
+
+#surveyBtn {
+    position: fixed;
+    right: 23px;
+    bottom: 40px;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+/* label color */
+.input-field label {
+    color: #000;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #000;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000;
+}
+
+.homeNav {
+    box-shadow: none;
+    margin-top: 3em
+}

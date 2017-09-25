@@ -1,0 +1,21 @@
+
+//button to launch your modal
+<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+
+//your modal
+<div id="myModal" class="modal hide fade" ...
+ ...
+ <div id="modal-body">..
+</div>
+
+$(document).ready(function() {
+  $('#myModal').on('show', function () {
+    $.ajax({
+      type: "GET",
+      url: "${createLink(controller: 'myController', action: 'myAction', id: 'someid')}"
+    }).done(function(data) {
+        $('#modal-body').html(data);
+    });
+
+  });//end on()
+});//end ready()
